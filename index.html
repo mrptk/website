@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="content/style.css" />
+    <link rel="icon" href="icon.png" sizes="any" type="image/png" />
+    <script type="text/javascript" src="script.js"></script>
+    <title>Forum </title>
+</head>
+
+<body>
+    <div class="center_block">
+        <hr />
+        <h1>Witaj na Forum!</h1>
+        <div class="button_bar">
+            <table>
+                <td onclick="postClick(event)">NAPISZ</td>
+                <td onclick="wallClick(event)">CZYTAJ</td>
+                <td onclick="loginClick(event)" style="border: none;">PRZYWITAJ SIĘ</td>
+            </table>
+        </div>
+        <iframe id="container" src="content/wall.php"></iframe>
+        <hr />
+    </div>
+</body>
+
+</html>
